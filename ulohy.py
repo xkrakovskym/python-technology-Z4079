@@ -14,6 +14,15 @@ from random import randint
 # 3. Importujte modul datetime ako dt a použite ho na vytlačenie aktuálneho dátumu a času.
 # Použite funkciu datetime.now()
 
-import datetime as dt
+#import datetime as dt
 
-print(dt.datetime.now())
+#print(dt.datetime.now())
+
+# 4. . Inštalácia balíka:
+# Napíšte príkaz pip, ktorý nainštaluje balík requests.
+# Po inštalácii balíka requests napíšte skript, ktorý ho importuje a pošle GET
+# požiadavku na https://google.com. Vytlačte status kód odpovede.
+
+import requests
+
+response = requests.get("https://google.com")
